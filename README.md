@@ -1,14 +1,16 @@
 # securityrat-vuejs
 
-## Project setup
+This is an updated version for the SecurityRAT frontend. It is based on Vue.js. It is fully compatible with SecurityRat
+1.8.
+
+For testing purpose you can run the frontend with the old backend behind a nginx proxy.
+See [NGINX configuration](nginx.conf) and replace `<dev-ip>` with your host IP where you run the frontend.
+Replace `<securityRat-ip>` with your securityRat instance IP.
+
+## Run the frontend
 
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-
-```
 npm run serve
 ```
 
@@ -18,12 +20,8 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
+## What is working
 
-```
-npm run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* Editor
+* Account
+* Browse
